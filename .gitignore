@@ -73,7 +73,6 @@ web_modules/
 .yarn-integrity
 
 # dotenv environment variable files
-.env
 .env.development.local
 .env.test.local
 .env.production.local
@@ -135,4 +134,13 @@ dist
 .yarn/install-state.gz
 .pnp.*
 
-!eslint.config.js
+eslint.config.js
+
+output.txt
+node_modules
+dist
+.mastra
+.env.development
+.env
+*.db
+*.db-*

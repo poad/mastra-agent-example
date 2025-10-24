@@ -1,18 +1,18 @@
-name: pull-request-auto-merge
+name: Enable Auto Merge
 
-on:
-  pull_request:
+on: pull_request
 
 permissions:
   contents: write
   pull-requests: write
 
 jobs:
-  pull-request-auto-merge:
+  auto-merge:
     runs-on: ubuntu-latest
-    steps:
-      - uses: actions/checkout@v5
 
+    if: github.event.pull_request.draft == false
+
+    steps:
       - name: Enable auto-merge for Pull Request
         run: |
           gh pr review --approve "$PR_URL"

@@ -13,7 +13,13 @@
     "esModuleInterop": true,
     "skipLibCheck": true,
     "forceConsistentCasingInFileNames": true,
-    "moduleResolution": "node",
-    "types": ["vitest/globals"]
-  }
+    "moduleResolution": "bundler",
+    "types": ["vitest/globals"],
+    "noEmit": true,
+    "outDir": "dist"
+  },
+  "include": [
+    "src/**/*",
+    "eslint.config.ts"
+  ]
 }
