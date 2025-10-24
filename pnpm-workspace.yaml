@@ -4,3 +4,8 @@ packages:
 onlyBuiltDependencies:
   - esbuild
   - unrs-resolver
+
+overrides:
+  jsondiffpatch@<0.7.2: '>=0.7.2'
+
+strictPeerDependencies: true
