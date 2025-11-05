@@ -86,7 +86,7 @@ importers:
         version: 8.46.3(eslint@9.39.1(jiti@2.6.1))(typescript@5.9.3)
       vite-tsconfig-paths:
         specifier: ^5.1.4
-        version: 5.1.4(typescript@5.9.3)(vite@7.1.12(@types/node@24.10.0)(jiti@2.6.1)(yaml@2.8.1))
+        version: 5.1.4(typescript@5.9.3)(vite@7.2.0(@types/node@24.10.0)(jiti@2.6.1)(yaml@2.8.1))
       vitest:
         specifier: ^4.0.7
         version: 4.0.7(@types/node@24.10.0)(jiti@2.6.1)(yaml@2.8.1)
@@ -1753,8 +1753,8 @@ packages:
     resolution: {integrity: sha512-Z4DUr/AkgyFf1bOThW2HwzREagee0sB5ycl+hDiSZOfRLW8ZgrOjDi6g8mHH19yyU5E2A/64W3z6SMIf5XiUSQ==}
     engines: {node: '>=18.0.0'}
 
-  '@smithy/config-resolver@4.4.1':
-    resolution: {integrity: sha512-BciDJ5hkyYEGBBKMbjGB1A/Zq8bYZ41Zo9BMnGdKF6QD1fY4zIkYx6zui/0CHaVGnv6h0iy8y4rnPX9CPCAPyQ==}
+  '@smithy/config-resolver@4.4.2':
+    resolution: {integrity: sha512-4Jys0ni2tB2VZzgslbEgszZyMdTkPOFGA8g+So/NjR8oy6Qwaq4eSwsrRI+NMtb0Dq4kqCzGUu/nGUx7OM/xfw==}
     engines: {node: '>=18.0.0'}
 
   '@smithy/core@3.17.2':
@@ -1885,8 +1885,8 @@ packages:
     resolution: {integrity: sha512-GwaGjv/QLuL/QHQaqhf/maM7+MnRFQQs7Bsl6FlaeK6lm6U7mV5AAnVabw68cIoMl5FQFyKK62u7RWRzWL25OQ==}
     engines: {node: '>=18.0.0'}
 
-  '@smithy/util-defaults-mode-node@4.2.7':
-    resolution: {integrity: sha512-6hinjVqec0WYGsqN7h9hL/ywfULmJJNXGXnNZW7jrIn/cFuC/aVlVaiDfBIJEvKcOrmN8/EgsW69eY0gXABeHw==}
+  '@smithy/util-defaults-mode-node@4.2.8':
+    resolution: {integrity: sha512-gIoTf9V/nFSIZ0TtgDNLd+Ws59AJvijmMDYrOozoMHPJaG9cMRdqNO50jZTlbM6ydzQYY8L/mQ4tKSw/TB+s6g==}
     engines: {node: '>=18.0.0'}
 
   '@smithy/util-endpoints@3.2.4':
@@ -2360,8 +2360,8 @@ packages:
   aws4fetch@1.0.20:
     resolution: {integrity: sha512-/djoAN709iY65ETD6LKCtyyEI04XIBP5xVvfmNxsEP0uJB5tyaGBztSryRr4HqMStr9R06PisQE7m9zDTXKu6g==}
 
-  axios@1.13.1:
-    resolution: {integrity: sha512-hU4EGxxt+j7TQijx1oYdAjw4xuIp1wRQSsbMFwSthCWeBQur1eF+qJ5iQ5sN3Tw8YRzQNKb8jszgBdMDVqwJcw==}
+  axios@1.13.2:
+    resolution: {integrity: sha512-VPk9ebNqPcy5lRGuSlKx752IlDatOjT9paPlm8A7yOuW2Fbvp4X3JznJtT4f0GzGLLiWE9W8onz51SqLYwzGaA==}
 
   balanced-match@1.0.2:
     resolution: {integrity: sha512-3oSeUO0TMV67hN1AmbXsK4yaqU7tjiHlbxRDZOpH0KW9+CeX4bRAaX0Anxt0tx2MrpRpWwQaPwIlISEJhYU5Pw==}
@@ -2651,8 +2651,8 @@ packages:
   ee-first@1.1.1:
     resolution: {integrity: sha512-WMwm9LhRUo+WUaRN+vRuETqG89IgZphVSNkdFgeb6sS/E4OrDIN7t48CAewSHXc6C8lefD8KKfr5vY61brQlow==}
 
-  electron-to-chromium@1.5.244:
-    resolution: {integrity: sha512-OszpBN7xZX4vWMPJwB9illkN/znA8M36GQqQxi6MNy9axWxhOfJyZZJtSLQCpEFLHP2xK33BiWx9aIuIEXVCcw==}
+  electron-to-chromium@1.5.245:
+    resolution: {integrity: sha512-rdmGfW47ZhL/oWEJAY4qxRtdly2B98ooTJ0pdEI4jhVLZ6tNf8fPtov2wS1IRKwFJT92le3x4Knxiwzl7cPPpQ==}
 
   emoji-regex@8.0.0:
     resolution: {integrity: sha512-MSjYzcWNOA0ewAHpz0MxpYFvwg6yjy1NG3xteoqz644VCo/RPgnr1/GGt+ic3iJTzQ8Eu3TdM14SawnVUmGE6A==}
@@ -4020,8 +4020,8 @@ packages:
       esbuild: '>=0.18.0'
       rollup: ^1.20.0 || ^2.0.0 || ^3.0.0 || ^4.0.0
 
-  rollup-plugin-node-externals@8.1.1:
-    resolution: {integrity: sha512-MEWJmXMGjo5E7o9hgAmma6XLCdU9gTVRcaaCubugTJdoJD3A91qxtxiukT9k2PeUdogtCaNehV3pvJUWrRNtwg==}
+  rollup-plugin-node-externals@8.1.2:
+    resolution: {integrity: sha512-EuB6/lolkMLK16gvibUjikERq5fCRVIGwD2xue/CrM8D0pz5GXD2V6N8IrgxegwbcUoKkUFI8VYCEEv8MMvgpA==}
     engines: {node: '>= 21 || ^20.6.0 || ^18.19.0'}
     peerDependencies:
       rollup: ^4.0.0
@@ -4421,8 +4421,8 @@ packages:
       vite:
         optional: true
 
-  vite@7.1.12:
-    resolution: {integrity: sha512-ZWyE8YXEXqJrrSLvYgrRP7p62OziLW7xI5HYGWFzOvupfAlrLvURSzv/FyGyy0eidogEM3ujU+kUG1zuHgb6Ug==}
+  vite@7.2.0:
+    resolution: {integrity: sha512-C/Naxf8H0pBx1PA4BdpT+c/5wdqI9ILMdwjSMILw7tVIh3JsxzZqdeTLmmdaoh5MYUEOyBnM9K3o0DzoZ/fe+w==}
     engines: {node: ^20.19.0 || >=22.12.0}
     hasBin: true
     peerDependencies:
@@ -4806,7 +4806,7 @@ snapshots:
       '@aws-sdk/util-endpoints': 3.922.0
       '@aws-sdk/util-user-agent-browser': 3.922.0
       '@aws-sdk/util-user-agent-node': 3.922.0
-      '@smithy/config-resolver': 4.4.1
+      '@smithy/config-resolver': 4.4.2
       '@smithy/core': 3.17.2
       '@smithy/fetch-http-handler': 5.3.5
       '@smithy/hash-node': 4.2.4
@@ -4826,7 +4826,7 @@ snapshots:
       '@smithy/util-body-length-browser': 4.2.0
       '@smithy/util-body-length-node': 4.2.1
       '@smithy/util-defaults-mode-browser': 4.3.5
-      '@smithy/util-defaults-mode-node': 4.2.7
+      '@smithy/util-defaults-mode-node': 4.2.8
       '@smithy/util-endpoints': 3.2.4
       '@smithy/util-middleware': 4.2.4
       '@smithy/util-retry': 4.2.4
@@ -4849,7 +4849,7 @@ snapshots:
       '@aws-sdk/util-endpoints': 3.922.0
       '@aws-sdk/util-user-agent-browser': 3.922.0
       '@aws-sdk/util-user-agent-node': 3.922.0
-      '@smithy/config-resolver': 4.4.1
+      '@smithy/config-resolver': 4.4.2
       '@smithy/core': 3.17.2
       '@smithy/fetch-http-handler': 5.3.5
       '@smithy/hash-node': 4.2.4
@@ -4869,7 +4869,7 @@ snapshots:
       '@smithy/util-body-length-browser': 4.2.0
       '@smithy/util-body-length-node': 4.2.1
       '@smithy/util-defaults-mode-browser': 4.3.5
-      '@smithy/util-defaults-mode-node': 4.2.7
+      '@smithy/util-defaults-mode-node': 4.2.8
       '@smithy/util-endpoints': 3.2.4
       '@smithy/util-middleware': 4.2.4
       '@smithy/util-retry': 4.2.4
@@ -5008,7 +5008,7 @@ snapshots:
       '@aws-sdk/credential-provider-web-identity': 3.922.0
       '@aws-sdk/nested-clients': 3.922.0
       '@aws-sdk/types': 3.922.0
-      '@smithy/config-resolver': 4.4.1
+      '@smithy/config-resolver': 4.4.2
       '@smithy/core': 3.17.2
       '@smithy/credential-provider-imds': 4.2.4
       '@smithy/node-config-provider': 4.3.4
@@ -5063,7 +5063,7 @@ snapshots:
       '@aws-sdk/util-endpoints': 3.922.0
       '@aws-sdk/util-user-agent-browser': 3.922.0
       '@aws-sdk/util-user-agent-node': 3.922.0
-      '@smithy/config-resolver': 4.4.1
+      '@smithy/config-resolver': 4.4.2
       '@smithy/core': 3.17.2
       '@smithy/fetch-http-handler': 5.3.5
       '@smithy/hash-node': 4.2.4
@@ -5083,7 +5083,7 @@ snapshots:
       '@smithy/util-body-length-browser': 4.2.0
       '@smithy/util-body-length-node': 4.2.1
       '@smithy/util-defaults-mode-browser': 4.3.5
-      '@smithy/util-defaults-mode-node': 4.2.7
+      '@smithy/util-defaults-mode-node': 4.2.8
       '@smithy/util-endpoints': 3.2.4
       '@smithy/util-middleware': 4.2.4
       '@smithy/util-retry': 4.2.4
@@ -5095,7 +5095,7 @@ snapshots:
   '@aws-sdk/region-config-resolver@3.922.0':
     dependencies:
       '@aws-sdk/types': 3.922.0
-      '@smithy/config-resolver': 4.4.1
+      '@smithy/config-resolver': 4.4.2
       '@smithy/node-config-provider': 4.3.4
       '@smithy/types': 4.8.1
       tslib: 2.8.1
@@ -5722,7 +5722,7 @@ snapshots:
       resolve.exports: 2.0.3
       rollup: 4.50.2
       rollup-plugin-esbuild: 6.2.1(esbuild@0.25.12)(rollup@4.50.2)
-      rollup-plugin-node-externals: 8.1.1(rollup@4.50.2)
+      rollup-plugin-node-externals: 8.1.2(rollup@4.50.2)
       tinyglobby: 0.2.15
       typescript-paths: 1.5.1(typescript@5.9.3)
       zod: 4.1.12
@@ -6803,7 +6803,7 @@ snapshots:
       '@smithy/types': 4.8.1
       tslib: 2.8.1
 
-  '@smithy/config-resolver@4.4.1':
+  '@smithy/config-resolver@4.4.2':
     dependencies:
       '@smithy/node-config-provider': 4.3.4
       '@smithy/types': 4.8.1
@@ -7019,9 +7019,9 @@ snapshots:
       '@smithy/types': 4.8.1
       tslib: 2.8.1
 
-  '@smithy/util-defaults-mode-node@4.2.7':
+  '@smithy/util-defaults-mode-node@4.2.8':
     dependencies:
-      '@smithy/config-resolver': 4.4.1
+      '@smithy/config-resolver': 4.4.2
       '@smithy/credential-provider-imds': 4.2.4
       '@smithy/node-config-provider': 4.3.4
       '@smithy/property-provider': 4.2.4
@@ -7385,13 +7385,13 @@ snapshots:
       chai: 6.2.0
       tinyrainbow: 3.0.3
 
-  '@vitest/mocker@4.0.7(vite@7.1.12(@types/node@24.10.0)(jiti@2.6.1)(yaml@2.8.1))':
+  '@vitest/mocker@4.0.7(vite@7.2.0(@types/node@24.10.0)(jiti@2.6.1)(yaml@2.8.1))':
     dependencies:
       '@vitest/spy': 4.0.7
       estree-walker: 3.0.3
       magic-string: 0.30.21
     optionalDependencies:
-      vite: 7.1.12(@types/node@24.10.0)(jiti@2.6.1)(yaml@2.8.1)
+      vite: 7.2.0(@types/node@24.10.0)(jiti@2.6.1)(yaml@2.8.1)
 
   '@vitest/pretty-format@4.0.7':
     dependencies:
@@ -7573,7 +7573,7 @@ snapshots:
 
   aws4fetch@1.0.20: {}
 
-  axios@1.13.1:
+  axios@1.13.2:
     dependencies:
       follow-redirects: 1.15.11
       form-data: 4.0.4
@@ -7639,7 +7639,7 @@ snapshots:
     dependencies:
       baseline-browser-mapping: 2.8.24
       caniuse-lite: 1.0.30001753
-      electron-to-chromium: 1.5.244
+      electron-to-chromium: 1.5.245
       node-releases: 2.0.27
       update-browserslist-db: 1.1.4(browserslist@4.27.0)
 
@@ -7841,7 +7841,7 @@ snapshots:
 
   ee-first@1.1.1: {}
 
-  electron-to-chromium@1.5.244: {}
+  electron-to-chromium@1.5.245: {}
 
   emoji-regex@8.0.0: {}
 
@@ -9215,7 +9215,7 @@ snapshots:
 
   posthog-node@4.18.0:
     dependencies:
-      axios: 1.13.1
+      axios: 1.13.2
     transitivePeerDependencies:
       - debug
 
@@ -9363,7 +9363,7 @@ snapshots:
     transitivePeerDependencies:
       - supports-color
 
-  rollup-plugin-node-externals@8.1.1(rollup@4.50.2):
+  rollup-plugin-node-externals@8.1.2(rollup@4.50.2):
     dependencies:
       rollup: 4.50.2
 
@@ -9863,18 +9863,18 @@ snapshots:
 
   vary@1.1.2: {}
 
-  vite-tsconfig-paths@5.1.4(typescript@5.9.3)(vite@7.1.12(@types/node@24.10.0)(jiti@2.6.1)(yaml@2.8.1)):
+  vite-tsconfig-paths@5.1.4(typescript@5.9.3)(vite@7.2.0(@types/node@24.10.0)(jiti@2.6.1)(yaml@2.8.1)):
     dependencies:
       debug: 4.4.3
       globrex: 0.1.2
       tsconfck: 3.1.6(typescript@5.9.3)
     optionalDependencies:
-      vite: 7.1.12(@types/node@24.10.0)(jiti@2.6.1)(yaml@2.8.1)
+      vite: 7.2.0(@types/node@24.10.0)(jiti@2.6.1)(yaml@2.8.1)
     transitivePeerDependencies:
       - supports-color
       - typescript
 
-  vite@7.1.12(@types/node@24.10.0)(jiti@2.6.1)(yaml@2.8.1):
+  vite@7.2.0(@types/node@24.10.0)(jiti@2.6.1)(yaml@2.8.1):
     dependencies:
       esbuild: 0.25.12
       fdir: 6.5.0(picomatch@4.0.3)
@@ -9891,7 +9891,7 @@ snapshots:
   vitest@4.0.7(@types/node@24.10.0)(jiti@2.6.1)(yaml@2.8.1):
     dependencies:
       '@vitest/expect': 4.0.7
-      '@vitest/mocker': 4.0.7(vite@7.1.12(@types/node@24.10.0)(jiti@2.6.1)(yaml@2.8.1))
+      '@vitest/mocker': 4.0.7(vite@7.2.0(@types/node@24.10.0)(jiti@2.6.1)(yaml@2.8.1))
       '@vitest/pretty-format': 4.0.7
       '@vitest/runner': 4.0.7
       '@vitest/snapshot': 4.0.7
@@ -9908,7 +9908,7 @@ snapshots:
       tinyexec: 0.3.2
       tinyglobby: 0.2.15
       tinyrainbow: 3.0.3
-      vite: 7.1.12(@types/node@24.10.0)(jiti@2.6.1)(yaml@2.8.1)
+      vite: 7.2.0(@types/node@24.10.0)(jiti@2.6.1)(yaml@2.8.1)
       why-is-node-running: 2.3.0
     optionalDependencies:
       '@types/node': 24.10.0
