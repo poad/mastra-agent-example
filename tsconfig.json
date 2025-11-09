@@ -19,7 +19,9 @@
     "outDir": "dist"
   },
   "include": [
-    "src/**/*",
-    "eslint.config.ts"
+    "src/**/*"
+  ],
+  "exclude": [
+    "*.config.ts"
   ]
 }
