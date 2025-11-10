@@ -13,8 +13,8 @@ importers:
   .:
     dependencies:
       '@ai-sdk/amazon-bedrock':
-        specifier: ^3.0.52
-        version: 3.0.52(zod@4.1.12)
+        specifier: ^3.0.53
+        version: 3.0.53(zod@4.1.12)
       '@aws-sdk/credential-providers':
         specifier: ^3.927.0
         version: 3.927.0
@@ -74,8 +74,8 @@ importers:
         specifier: ^0.18.0
         version: 0.18.0(@mastra/core@0.24.0(openapi-types@12.1.3)(zod@4.1.12))(@opentelemetry/api@1.9.0)(typescript@5.9.3)(zod@4.1.12)
       pnpm:
-        specifier: ^10.20.0
-        version: 10.20.0
+        specifier: ^10.21.0
+        version: 10.21.0
       tslib:
         specifier: ^2.8.1
         version: 2.8.1
@@ -98,8 +98,8 @@ packages:
     resolution: {integrity: sha512-VTDuRS5V0ATbJ/LkaQlisMnTAeYKXAK6scMguVBstf+KIBQ7HIuKhiXLv+G/hvejkV+THoXzoNifInAkU81P1g==}
     engines: {node: '>=18'}
 
-  '@ai-sdk/amazon-bedrock@3.0.52':
-    resolution: {integrity: sha512-dCse5ShXxeKB0IBg2/uac3DaHaFHYh6xoDBGjtlxeosHAppHwkal4OA5tgy6uj3Zp9bRZg4ZlkR77zdw3HC4ug==}
+  '@ai-sdk/amazon-bedrock@3.0.53':
+    resolution: {integrity: sha512-HyVLZbdGunqJbdCK2v/jofo9Z4lDAbngO2X/T57K+4wPZtCeUnv0f9F941RgU6XVJwdxjxITX1XEhhBP1qqGnw==}
     engines: {node: '>=18'}
     peerDependencies:
       zod: ^3.25.76 || ^4.1.8
@@ -110,8 +110,8 @@ packages:
     peerDependencies:
       zod: ^3.25.76 || ^4.1.8
 
-  '@ai-sdk/anthropic@2.0.42':
-    resolution: {integrity: sha512-5BcXMx6VTYPeA4csd1SvJgpCn5Nu9qHqsNqOr1e/R7UHq83Vv4j4OcgbFwdWgaW/wihNla5B+y4OGqTFIw216w==}
+  '@ai-sdk/anthropic@2.0.43':
+    resolution: {integrity: sha512-YQWYdoU6X1E16BS/KYCkage18q8sqj3FguCZ/RQs/wxS1551DVeD5DrWiYXxm5T293HzeAVJssQFEx67kc4LmA==}
     engines: {node: '>=18'}
     peerDependencies:
       zod: ^3.25.76 || ^4.1.8
@@ -2860,8 +2860,8 @@ packages:
     resolution: {integrity: sha512-DT9ck5YIRU+8GYzzU5kT3eHGA5iL+1Zd0EutOmTE9Dtk+Tvuzd23VBU+ec7HPNSTxXYO55gPV/hq4pSBJDjFpA==}
     engines: {node: '>= 18'}
 
-  exsolve@1.0.7:
-    resolution: {integrity: sha512-VO5fQUzZtI6C+vx4w/4BWJpg3s/5l+6pRQEHzFRM8WFi4XffSP1Z+4qi7GbjWbvRQEbdIco5mIMq+zX4rPuLrw==}
+  exsolve@1.0.8:
+    resolution: {integrity: sha512-LmDxfWXwcTArk8fUEnOfSZpHOJ6zOMUJKOtFLFqJLoKJetuQG874Uc7/Kki7zFLzYybmZhp1M7+98pfMqeX8yA==}
 
   extend@3.0.2:
     resolution: {integrity: sha512-fjquC59cD7CyW6urNXK0FBufkZcoiGG80wTuPujX590cB5Ttln20E2UB4S/WARVqhXffZl2LNgS+gQdPIIim/g==}
@@ -3831,8 +3831,8 @@ packages:
   pkg-types@2.3.0:
     resolution: {integrity: sha512-SIqCzDRg0s9npO5XQ3tNZioRY1uK06lA41ynBC1YmFTmnY6FjUjVt6s4LoADmwoig1qqD0oK8h1p/8mlMx8Oig==}
 
-  pnpm@10.20.0:
-    resolution: {integrity: sha512-z5mYIiFi3YWGTQqBAueJLnukzq3rv1ox+cL85I384xepxTufZGTR75BCy6LgKuAqn3wUOitDjNk8kYQPAZK53Q==}
+  pnpm@10.21.0:
+    resolution: {integrity: sha512-2jM3Jn5AD909R5psaAeaxtsB2MpPZ1cgg+cid1p5Z4inqZVmE3SeAA+sINQktZT3p5Gl9OLhNYHF75R/JpaKQA==}
     engines: {node: '>=18.12'}
     hasBin: true
 
@@ -4597,9 +4597,9 @@ snapshots:
     transitivePeerDependencies:
       - supports-color
 
-  '@ai-sdk/amazon-bedrock@3.0.52(zod@4.1.12)':
+  '@ai-sdk/amazon-bedrock@3.0.53(zod@4.1.12)':
     dependencies:
-      '@ai-sdk/anthropic': 2.0.42(zod@4.1.12)
+      '@ai-sdk/anthropic': 2.0.43(zod@4.1.12)
       '@ai-sdk/provider': 2.0.0
       '@ai-sdk/provider-utils': 3.0.16(zod@4.1.12)
       '@smithy/eventstream-codec': 4.2.4
@@ -4613,7 +4613,7 @@ snapshots:
       '@ai-sdk/provider-utils': 3.0.12(zod@4.1.12)
       zod: 4.1.12
 
-  '@ai-sdk/anthropic@2.0.42(zod@4.1.12)':
+  '@ai-sdk/anthropic@2.0.43(zod@4.1.12)':
     dependencies:
       '@ai-sdk/provider': 2.0.0
       '@ai-sdk/provider-utils': 3.0.16(zod@4.1.12)
@@ -8176,7 +8176,7 @@ snapshots:
     transitivePeerDependencies:
       - supports-color
 
-  exsolve@1.0.7: {}
+  exsolve@1.0.8: {}
 
   extend@3.0.2: {}
 
@@ -9134,10 +9134,10 @@ snapshots:
   pkg-types@2.3.0:
     dependencies:
       confbox: 0.2.2
-      exsolve: 1.0.7
+      exsolve: 1.0.8
       pathe: 2.0.3
 
-  pnpm@10.20.0: {}
+  pnpm@10.21.0: {}
 
   possible-typed-array-names@1.1.0: {}
 
