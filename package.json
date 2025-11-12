@@ -12,7 +12,7 @@
   },
   "dependencies": {
     "@ai-sdk/amazon-bedrock": "^3.0.54",
-    "@aws-sdk/credential-providers": "^3.928.0",
+    "@aws-sdk/credential-providers": "^3.929.0",
     "@mastra/core": "^0.24.0",
     "@mastra/libsql": "^0.16.2",
     "@mastra/loggers": "^0.10.19",
@@ -25,7 +25,7 @@
     "@eslint/compat": "^1.4.1",
     "@eslint/js": "^9.39.1",
     "@stylistic/eslint-plugin": "^5.5.0",
-    "@types/node": "^24.10.0",
+    "@types/node": "^24.10.1",
     "@vitest/coverage-v8": "^4.0.8",
     "eslint": "^9.39.1",
     "eslint-import-resolver-typescript": "^4.4.4",
