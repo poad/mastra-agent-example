@@ -14,8 +14,8 @@ importers:
   .:
     dependencies:
       '@ai-sdk/amazon-bedrock':
-        specifier: ^3.0.61
-        version: 3.0.61(zod@4.1.13)
+        specifier: ^3.0.62
+        version: 3.0.62(zod@4.1.13)
       '@aws-sdk/credential-providers':
         specifier: ^3.940.0
         version: 3.940.0
@@ -75,8 +75,8 @@ importers:
         specifier: ^0.18.6
         version: 0.18.6(@mastra/core@0.24.6(openapi-types@12.1.3)(zod@4.1.13))(@opentelemetry/api@1.9.0)(typescript@5.9.3)(zod@4.1.13)
       pnpm:
-        specifier: ^10.23.0
-        version: 10.23.0
+        specifier: ^10.24.0
+        version: 10.24.0
       tslib:
         specifier: ^2.8.1
         version: 2.8.1
@@ -99,8 +99,8 @@ packages:
     resolution: {integrity: sha512-VTDuRS5V0ATbJ/LkaQlisMnTAeYKXAK6scMguVBstf+KIBQ7HIuKhiXLv+G/hvejkV+THoXzoNifInAkU81P1g==}
     engines: {node: '>=18'}
 
-  '@ai-sdk/amazon-bedrock@3.0.61':
-    resolution: {integrity: sha512-sgMNLtII+vvHbe8S8nVxVAf3I60PcSKRvBvB6CvwdaO3yc5CVCHEulfcasxTR9jThV60aUZ2Q5BzheSwIyo9hg==}
+  '@ai-sdk/amazon-bedrock@3.0.62':
+    resolution: {integrity: sha512-vVtndaj5zfHmgw8NSqN4baFDbFDTBZP6qufhKfqSNLtygEm8+8PL9XQX9urgzSzU3zp+zi3AmNNemvKLkkqblg==}
     engines: {node: '>=18'}
     peerDependencies:
       zod: ^3.25.76 || ^4.1.8
@@ -111,8 +111,8 @@ packages:
     peerDependencies:
       zod: ^3.25.76 || ^4.1.8
 
-  '@ai-sdk/anthropic@2.0.49':
-    resolution: {integrity: sha512-XedtHVHX6UOlR/aa8bDmlsDc/e+kjC+l6qBeqnZPF05np6Xs7YR8tfH7yARq0LDq3m+ysw7Qoy9M5KRL+1C8qA==}
+  '@ai-sdk/anthropic@2.0.50':
+    resolution: {integrity: sha512-21PaHfoLmouOXXNINTsZJsMw+wE5oLR2He/1kq/sKokTVKyq7ObGT1LDk6ahwxaz/GoaNaGankMh+EgVcdv2Cw==}
     engines: {node: '>=18'}
     peerDependencies:
       zod: ^3.25.76 || ^4.1.8
@@ -185,6 +185,12 @@ packages:
 
   '@ai-sdk/provider-utils@3.0.17':
     resolution: {integrity: sha512-TR3Gs4I3Tym4Ll+EPdzRdvo/rc8Js6c4nVhFLuvGLX/Y4V9ZcQMa/HTiYsHEgmYrf1zVi6Q145UEZUfleOwOjw==}
+    engines: {node: '>=18'}
+    peerDependencies:
+      zod: ^3.25.76 || ^4.1.8
+
+  '@ai-sdk/provider-utils@3.0.18':
+    resolution: {integrity: sha512-ypv1xXMsgGcNKUP+hglKqtdDuMg68nWHucPPAhIENrbFAI+xCHiqPVN8Zllxyv1TNZwGWUghPxJXU+Mqps0YRQ==}
     engines: {node: '>=18'}
     peerDependencies:
       zod: ^3.25.76 || ^4.1.8
@@ -1401,8 +1407,8 @@ packages:
     peerDependencies:
       '@opentelemetry/api': ^1.1.0
 
-  '@optimize-lodash/rollup-plugin@5.0.2':
-    resolution: {integrity: sha512-UWBD9/C5jO0rDAbiqrZqiTLPD0LOHG3DzBo8ubLTpNWY9xOz5f5+S2yuxG/7ICk8sx8K6pZ8O/jsAbFgjtfh6w==}
+  '@optimize-lodash/rollup-plugin@5.1.0':
+    resolution: {integrity: sha512-dBQYGH8+n4Z/877e61PJteVZEc+U1wfRF6IhKqW0cABRIsqMxpWynyov6M6Sd4IUjru0dnh0EG55X86JO6WakQ==}
     engines: {node: '>= 18'}
     peerDependencies:
       rollup: '>= 4.x'
@@ -3840,8 +3846,8 @@ packages:
   pkg-types@2.3.0:
     resolution: {integrity: sha512-SIqCzDRg0s9npO5XQ3tNZioRY1uK06lA41ynBC1YmFTmnY6FjUjVt6s4LoADmwoig1qqD0oK8h1p/8mlMx8Oig==}
 
-  pnpm@10.23.0:
-    resolution: {integrity: sha512-IcTlaYACrel+Tv6Li0qJqN48haN5GflX56DzDzj7xbvdBZgP/ikXmy+25uaRJC4JjZRdFgF3LK0P71+2QR4qSw==}
+  pnpm@10.24.0:
+    resolution: {integrity: sha512-Af+K5xtEGZA7ZcYPstydNM+LtuBtA73hEu8496NNaQTEJLpmvqXNzxKJAjC/OflYBHMUDtnJRv7zKLblI4o0Wg==}
     engines: {node: '>=18.12'}
     hasBin: true
 
@@ -3881,8 +3887,8 @@ packages:
     resolution: {integrity: sha512-vkcDPrRZo1QZLbn5RLGPpg/WmIQ65qoWWhcGKf/b5eplkkarX0m9z8ppCat4mlOqUsWpyNuYgO3VRyrYHSzX5g==}
     engines: {node: '>= 0.8.0'}
 
-  prettier@3.7.0:
-    resolution: {integrity: sha512-pBiBj/gjRY9Qpk1b7cDda6Rbwvkaggos779AHQ0Ek/odwDx6xG6DRBxtnp1QmxbuD7pAO8/SQ8vuhtGv9LoLWA==}
+  prettier@3.7.1:
+    resolution: {integrity: sha512-RWKXE4qB3u5Z6yz7omJkjWwmTfLdcbv44jUVHC5NpfXwFGzvpQM798FGv/6WNK879tc+Cn0AAyherCl1KjbyZQ==}
     engines: {node: '>=14'}
     hasBin: true
 
@@ -4594,11 +4600,11 @@ snapshots:
     transitivePeerDependencies:
       - supports-color
 
-  '@ai-sdk/amazon-bedrock@3.0.61(zod@4.1.13)':
+  '@ai-sdk/amazon-bedrock@3.0.62(zod@4.1.13)':
     dependencies:
-      '@ai-sdk/anthropic': 2.0.49(zod@4.1.13)
+      '@ai-sdk/anthropic': 2.0.50(zod@4.1.13)
       '@ai-sdk/provider': 2.0.0
-      '@ai-sdk/provider-utils': 3.0.17(zod@4.1.13)
+      '@ai-sdk/provider-utils': 3.0.18(zod@4.1.13)
       '@smithy/eventstream-codec': 4.2.5
       '@smithy/util-utf8': 4.2.0
       aws4fetch: 1.0.20
@@ -4610,10 +4616,10 @@ snapshots:
       '@ai-sdk/provider-utils': 3.0.12(zod@4.1.13)
       zod: 4.1.13
 
-  '@ai-sdk/anthropic@2.0.49(zod@4.1.13)':
+  '@ai-sdk/anthropic@2.0.50(zod@4.1.13)':
     dependencies:
       '@ai-sdk/provider': 2.0.0
-      '@ai-sdk/provider-utils': 3.0.17(zod@4.1.13)
+      '@ai-sdk/provider-utils': 3.0.18(zod@4.1.13)
       zod: 4.1.13
 
   '@ai-sdk/gateway@1.0.33(zod@4.1.13)':
@@ -4690,6 +4696,13 @@ snapshots:
       zod: 4.1.13
 
   '@ai-sdk/provider-utils@3.0.17(zod@4.1.13)':
+    dependencies:
+      '@ai-sdk/provider': 2.0.0
+      '@standard-schema/spec': 1.0.0
+      eventsource-parser: 3.0.6
+      zod: 4.1.13
+
+  '@ai-sdk/provider-utils@3.0.18(zod@4.1.13)':
     dependencies:
       '@ai-sdk/provider': 2.0.0
       '@standard-schema/spec': 1.0.0
@@ -5685,7 +5698,7 @@ snapshots:
       '@mastra/core': 0.24.6(openapi-types@12.1.3)(zod@4.1.13)
       '@mastra/server': 0.24.6(@mastra/core@0.24.6(openapi-types@12.1.3)(zod@4.1.13))(zod@4.1.13)
       '@neon-rs/load': 0.1.82
-      '@optimize-lodash/rollup-plugin': 5.0.2(rollup@4.50.2)
+      '@optimize-lodash/rollup-plugin': 5.1.0(rollup@4.50.2)
       '@rollup/plugin-alias': 5.1.1(rollup@4.50.2)
       '@rollup/plugin-commonjs': 28.0.6(rollup@4.50.2)
       '@rollup/plugin-esm-shim': 0.1.8(rollup@4.50.2)
@@ -6532,7 +6545,7 @@ snapshots:
       '@opentelemetry/api': 1.9.0
       '@opentelemetry/core': 2.2.0(@opentelemetry/api@1.9.0)
 
-  '@optimize-lodash/rollup-plugin@5.0.2(rollup@4.50.2)':
+  '@optimize-lodash/rollup-plugin@5.1.0(rollup@4.50.2)':
     dependencies:
       '@optimize-lodash/transform': 3.0.6
       '@rollup/pluginutils': 5.3.0(rollup@4.50.2)
@@ -8840,7 +8853,7 @@ snapshots:
       open: 10.2.0
       picocolors: 1.1.1
       posthog-node: 4.18.0
-      prettier: 3.7.0
+      prettier: 3.7.1
       shell-quote: 1.8.3
       strip-json-comments: 5.0.3
       tcp-port-used: 1.0.2
@@ -9149,7 +9162,7 @@ snapshots:
       exsolve: 1.0.8
       pathe: 2.0.3
 
-  pnpm@10.23.0: {}
+  pnpm@10.24.0: {}
 
   possible-typed-array-names@1.1.0: {}
 
@@ -9179,7 +9192,7 @@ snapshots:
 
   prelude-ls@1.2.1: {}
 
-  prettier@3.7.0: {}
+  prettier@3.7.1: {}
 
   pretty-ms@9.3.0:
     dependencies:
