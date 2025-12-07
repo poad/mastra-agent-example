@@ -12,7 +12,7 @@
   },
   "dependencies": {
     "@ai-sdk/amazon-bedrock": "^3.0.67",
-    "@aws-sdk/credential-providers": "^3.943.0",
+    "@aws-sdk/credential-providers": "^3.946.0",
     "@mastra/core": "^0.24.6",
     "@mastra/libsql": "^0.16.3",
     "@mastra/loggers": "^0.10.19",
@@ -40,5 +40,5 @@
     "vite-tsconfig-paths": "^5.1.4",
     "vitest": "^4.0.15"
   },
-  "packageManager": "pnpm@10.23.0"
+  "packageManager": "pnpm@10.24.0"
 }
