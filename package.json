@@ -11,22 +11,22 @@
     "lint-fix": "eslint --fix"
   },
   "dependencies": {
-    "@ai-sdk/amazon-bedrock": "^4.0.24",
-    "@aws-sdk/credential-providers": "^3.972.0",
+    "@ai-sdk/amazon-bedrock": "^4.0.29",
+    "@aws-sdk/credential-providers": "^3.974.0",
     "@mastra/core": "^1.0.4",
     "@mastra/libsql": "^1.0.0",
     "@mastra/loggers": "^1.0.0",
     "@mastra/mcp": "^1.0.0",
     "@mastra/memory": "^1.0.0",
     "pkce-challenge": "^5.0.1",
-    "zod": "^4.3.5"
+    "zod": "^4.3.6"
   },
   "devDependencies": {
     "@eslint/compat": "^2.0.1",
     "@eslint/js": "^9.39.2",
     "@stylistic/eslint-plugin": "^5.7.0",
     "@types/node": "^25.0.10",
-    "@vitest/coverage-v8": "^4.0.17",
+    "@vitest/coverage-v8": "^4.0.18",
     "eslint": "^9.39.2",
     "eslint-import-resolver-typescript": "^4.4.4",
     "eslint-plugin-import": "^2.32.0",
@@ -38,7 +38,7 @@
     "typescript": "^5.9.3",
     "typescript-eslint": "^8.53.1",
     "vite-tsconfig-paths": "^6.0.4",
-    "vitest": "^4.0.17"
+    "vitest": "^4.0.18"
   },
   "packageManager": "pnpm@10.28.1"
 }
