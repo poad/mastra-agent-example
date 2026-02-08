@@ -5,10 +5,16 @@ onlyBuiltDependencies:
   - esbuild
   - unrs-resolver
 
+strictPeerDependencies: false
+
 overrides:
   ai@<5.0.52: '>=5.0.52'
   fast-xml-parser@>=4.3.6 <=5.3.3: '>=5.3.4'
   glob@>=10.3.7 <=11.0.3: '>=11.1.0'
   jsondiffpatch@<0.7.2: '>=0.7.2'
+  # eslint: ">=10.0.0"
+  # '@eslint/js': ">=10.0.0"
+  eslint: "^9"
+  '@eslint/js': "^9"
+  '@stylistic/eslint-plugin': '>=5.0.0'
 
-strictPeerDependencies: false
