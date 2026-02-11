@@ -14,7 +14,7 @@
     "skipLibCheck": true,
     "forceConsistentCasingInFileNames": true,
     "moduleResolution": "bundler",
-    "types": ["vitest/globals"],
+    "types": ["vitest/globals", "node"],
     "noEmit": true,
     "outDir": "dist"
   },
