@@ -19,8 +19,8 @@ importers:
   .:
     dependencies:
       '@ai-sdk/amazon-bedrock':
-        specifier: ^4.0.56
-        version: 4.0.56(zod@4.3.6)
+        specifier: ^4.0.57
+        version: 4.0.57(zod@4.3.6)
       '@aws-sdk/credential-providers':
         specifier: ^3.988.0
         version: 3.988.0
@@ -50,19 +50,19 @@ importers:
         specifier: ^2.0.2
         version: 2.0.2(eslint@9.39.2(jiti@2.6.1))
       '@eslint/js':
-        specifier: ^9
+        specifier: ^9.39.2
         version: 9.39.2
       '@stylistic/eslint-plugin':
-        specifier: '>=5.0.0'
+        specifier: ^5.8.0
         version: 5.8.0(eslint@9.39.2(jiti@2.6.1))
       '@types/node':
-        specifier: ^24
+        specifier: ^24.10.13
         version: 24.10.13
       '@vitest/coverage-v8':
         specifier: ^4.0.18
         version: 4.0.18(vitest@4.0.18(@opentelemetry/api@1.9.0)(@types/node@24.10.13)(jiti@2.6.1)(yaml@2.8.2))
       eslint:
-        specifier: ^9
+        specifier: ^9.39.2
         version: 9.39.2(jiti@2.6.1)
       eslint-import-resolver-typescript:
         specifier: ^4.4.4
@@ -104,8 +104,8 @@ packages:
     resolution: {integrity: sha512-VTDuRS5V0ATbJ/LkaQlisMnTAeYKXAK6scMguVBstf+KIBQ7HIuKhiXLv+G/hvejkV+THoXzoNifInAkU81P1g==}
     engines: {node: '>=18'}
 
-  '@ai-sdk/amazon-bedrock@4.0.56':
-    resolution: {integrity: sha512-LOJud09s2zUFYsMGOHv55m3ERxDrZ6+1PpcsihWUPloA4DcXJZIVRABck9OCU5NvUWR75jxsymg/+p79ox6IOw==}
+  '@ai-sdk/amazon-bedrock@4.0.57':
+    resolution: {integrity: sha512-MbBToTInd2tSnIcIXBxAI12uDGu4J0dnoOITPUtSfoZNUWQMt1fJ2CxbnGgxFTu+Q1t2W7g4NDmrvexAjXnU3g==}
     engines: {node: '>=18'}
     peerDependencies:
       zod: ^3.25.76 || ^4.1.8
@@ -4111,7 +4111,7 @@ snapshots:
     transitivePeerDependencies:
       - supports-color
 
-  '@ai-sdk/amazon-bedrock@4.0.56(zod@4.3.6)':
+  '@ai-sdk/amazon-bedrock@4.0.57(zod@4.3.6)':
     dependencies:
       '@ai-sdk/anthropic': 3.0.42(zod@4.3.6)
       '@ai-sdk/provider': 3.0.8
