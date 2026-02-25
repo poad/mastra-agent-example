@@ -11,8 +11,8 @@
     "lint-fix": "eslint --fix"
   },
   "dependencies": {
-    "@ai-sdk/amazon-bedrock": "^4.0.64",
-    "@aws-sdk/credential-providers": "^3.997.0",
+    "@ai-sdk/amazon-bedrock": "^4.0.65",
+    "@aws-sdk/credential-providers": "^3.998.0",
     "@mastra/core": "^1.7.0",
     "@mastra/libsql": "^1.6.1",
     "@mastra/loggers": "^1.0.2",
@@ -23,11 +23,11 @@
   },
   "devDependencies": {
     "@eslint/compat": "^2.0.2",
-    "@eslint/js": "^10.0.1",
+    "@eslint/js": "^9.39.3",
     "@stylistic/eslint-plugin": "^5.9.0",
-    "@types/node": "^25.3.0",
+    "@types/node": "^24.10.13",
     "@vitest/coverage-v8": "^4.0.18",
-    "eslint": "^10.0.2",
+    "eslint": "^9.39.3",
     "eslint-import-resolver-typescript": "^4.4.4",
     "eslint-plugin-import": "^2.32.0",
     "eslint-plugin-promise": "^7.2.1",
