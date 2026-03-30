@@ -1,8 +1,9 @@
 import { defineConfig } from 'eslint/config';
 import eslint from '@eslint/js';
 import stylistic from '@stylistic/eslint-plugin';
-import tseslint from 'typescript-eslint';
-import importPlugin from 'eslint-plugin-import';
+import {configs, parser} from 'typescript-eslint';
+import { importX } from 'eslint-plugin-import-x';
+import { createTypeScriptImportResolver } from 'eslint-import-resolver-typescript';
 
 // @ts-expect-error ignore type error
 import pluginPromise from 'eslint-plugin-promise'
@@ -28,13 +29,13 @@ export default defineConfig(
     ],
   },
   eslint.configs.recommended,
-  ...tseslint.configs.strict,
-  ...tseslint.configs.stylistic,
+  ...configs.strict,
+  ...configs.stylistic,
   pluginPromise.configs['flat/recommended'],
   {
     files: ['src/**/*.ts'],
     languageOptions: {
-      parser: tseslint.parser,
+      parser: parser,
       ecmaVersion: 'latest',
       sourceType: 'module',
       parserOptions: {
@@ -43,14 +44,19 @@ export default defineConfig(
       },
     },
     settings: {
-      'import/resolver': {
-        typescript: true,
-        node: true,
-      },
+      'import-x/resolver-next': [
+        createTypeScriptImportResolver({
+          alwaysTryTypes: true,
+        }),
+      ],
     },
-    extends: [importPlugin.flatConfigs.recommended, importPlugin.flatConfigs.typescript],
+    extends: [
+      importX.flatConfigs.recommended,
+      importX.flatConfigs.typescript,
+    ],
     plugins: {
       '@stylistic': stylistic,
+      'import-x': importX
     },
     rules: {
       '@stylistic/semi': ['error', 'always'],
